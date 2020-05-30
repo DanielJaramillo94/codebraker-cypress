@@ -1,0 +1,63 @@
+{
+  "name": "mercadolibre-api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "bootstrap-vue": "^2.4.1",
+    "core-js": "^3.4.4",
+    "express": "^4.17.1",
+    "serve-static": "^1.14.1",
+    "vue": "^2.6.10",
+    "vue-material": "^1.0.0-beta-11",
+    "vue-router": "^3.1.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-plugin-router": "^4.1.2",
+    "@vue/cli-service": "^4.1.0",
+    "babel-eslint": "^10.0.3",
+    "cypress": "^4.7.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:vue/strongly-recommended"
+    ],
+    "rules": {
+      "vue/html-closing-bracket-spacing": [
+        "error",
+        {
+          "selfClosingTag": "never"
+        }
+      ],
+      "vue/html-closing-bracket-newline": [
+        "error",
+        {
+          "multiline": "never"
+        }
+      ]
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
